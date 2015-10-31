@@ -7,10 +7,10 @@ gem 'rails',                  '4.2.4'
 gem 'bcrypt',                 '~> 3.1.7'
 
 # Database
-gem 'mysql2'
+gem 'mysql2',                 '~> 0.3.18'
 
 # Frontend
-gem 'jbuilder',                '~> 2.0'
+gem 'jbuilder',               '~> 2.0'
 
 group :development, :test do
   gem 'byebug'
